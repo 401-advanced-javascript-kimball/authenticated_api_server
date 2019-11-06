@@ -27,13 +27,13 @@ let options = {
       title: 'authenticated_api_server',
       version: '1.0.0',
     },
-    host: 'localhost:3000',
+    host: 'jk-401js-lab15.herokuapp.com',
     basePath: '/',
     produces: [
       "application/json",
       "application/xml"
     ],
-    schemes: ['http', 'https'],
+    schemes: ['https', 'http'],
     securityDefinitions: {
       JWT: {
         type: 'apiKey',
